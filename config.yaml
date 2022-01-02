@@ -31,3 +31,21 @@ monitors:
     method: GET
     expectStatus: 200
     linkable: true # allows the title to be a link, default=true
+
+  - id: trns-uk
+    name: trns.uk
+    description: 'additional short domain for lync.gg'
+    url: 'https://trns.uk'
+    method: GET
+    expectStatus: 200
+    followRedirect: true # should fetch follow redirects, default=false
+    linkable: false # allows the title to be a link, default=true
+    
+  - id: smthn-sh
+    name: smthn.sh
+    description: 'additional short domain for lync.gg'
+    url: 'https://smthn.sh'
+    method: GET
+    expectStatus: 200
+    followRedirect: true # should fetch follow redirects, default=false
+    linkable: false # allows the title to be a link, default=true
